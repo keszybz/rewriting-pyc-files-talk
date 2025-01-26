@@ -1,0 +1,869 @@
+Code "<module>" 🚩204/(ref to 204)"<module>" 🚩0
+  (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":1
+  argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=5 flags=0
+  -code: [560 bytes]
+  -consts: (
+    1 🚩2,
+    ("Adapter" 🚩3, "AdaptationError" 🚩4, "Pass" 🚩5),
+    ("int_to_bin" 🚩6, "bin_to_int" 🚩7, "swap_bytes" 🚩8),
+    ("FlagsContainer" 🚩9, "HexString" 🚩10),
+    ("BytesIO" 🚩11, "decodebytes" 🚩12),
+    Code (ref to 14)"BitIntegerError"/(ref to 14)"BitIntegerError"
+      "/usr/lib/python3.12/site-packages/elftools/construct/adapters.py" 🚩22:10
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [16 bytes]
+      -consts: ("BitIntegerError" 🚩14, None)
+      -names: ("__name__" 🚩16, "__module__" 🚩17, "__qualname__" 🚩18, "__slots__" 🚩19) 🚩15
+      -locals+names: () 🚩20
+      -locals+kinds: [] 🚩21
+      -linetable: [7 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 14)"BitIntegerError",
+    Code (ref to 25)"MappingError"/(ref to 25)"MappingError"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":12
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [16 bytes]
+      -consts: ("MappingError" 🚩25, None)
+      -names: (ref to 15)("__name__" 🚩16, "__module__" 🚩17, "__qualname__" 🚩18, "__slots__" 🚩19)
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: (ref to 23)[7 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 25)"MappingError",
+    Code (ref to 27)"ConstError"/(ref to 27)"ConstError"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":14
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [16 bytes]
+      -consts: ("ConstError" 🚩27, None)
+      -names: (ref to 15)("__name__" 🚩16, "__module__" 🚩17, "__qualname__" 🚩18, "__slots__" 🚩19)
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: (ref to 23)[7 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 27)"ConstError",
+    Code (ref to 29)"ValidationError"/(ref to 29)"ValidationError"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":16
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [16 bytes]
+      -consts: ("ValidationError" 🚩29, None)
+      -names: (ref to 15)("__name__" 🚩16, "__module__" 🚩17, "__qualname__" 🚩18, "__slots__" 🚩19)
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: (ref to 23)[7 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 29)"ValidationError",
+    Code (ref to 31)"PaddingError"/(ref to 31)"PaddingError"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":18
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [16 bytes]
+      -consts: ("PaddingError" 🚩31, None)
+      -names: (ref to 15)("__name__" 🚩16, "__module__" 🚩17, "__qualname__" 🚩18, "__slots__" 🚩19)
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: (ref to 23)[7 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 31)"PaddingError",
+    Code (ref to 33)"BitIntegerAdapter"/(ref to 33)"BitIntegerAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":24
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [48 bytes]
+      -consts: (
+        "BitIntegerAdapter" 🚩33,
+        "\n    Adapter for bit-integers (converts bitstrings to integers, and vice versa).\n    See BitField.\n\n    Parameters:\n    * subcon - the subcon to adapt\n    * width - the size of the subcon, in bits\n    * swapped - whether to swap byte order (little endian/big endian).\n      default is False (big endian)\n    * signed - whether the value is signed (two's complement). the default\n      is False (unsigned)\n    * bytesize - number of bits per byte, used for byte-swapping (if swapped).\n      default is 8.\n    ",
+        ("width" 🚩34, "swapped" 🚩35, "signed" 🚩36, "bytesize" 🚩37),
+        Code (ref to 40)"__init__"/"BitIntegerAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":40
+          argcount=6 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [104 bytes]
+          -consts: (None,) 🚩39
+          -names: ((ref to 3)"Adapter", "__init__" 🚩40, (ref to 34)"width", (ref to 35)"swapped", (ref to 36)"signed", (ref to 37)"bytesize")
+          -locals+names: ("self" 🚩41, "subcon" 🚩42, (ref to 34)"width", (ref to 35)"swapped", (ref to 36)"signed", (ref to 37)"bytesize")
+          -locals+kinds: [32, 32, 32, 32, 32, 32]
+          -linetable: [46 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code "_encode" 🚩49/"BitIntegerAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":47
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [180 bytes]
+          -consts: (
+            None,
+            0 🚩44,
+            "object is negative, but field is not signed",
+            ((ref to 34)"width",),
+            ((ref to 37)"bytesize",) 🚩45,
+          )
+          -names: ((ref to 36)"signed", (ref to 14)"BitIntegerError", (ref to 6)"int_to_bin", (ref to 34)"width", (ref to 35)"swapped", (ref to 8)"swap_bytes", (ref to 37)"bytesize")
+          -locals+names: ((ref to 41)"self", "obj" 🚩46, "context" 🚩47, "obj2" 🚩48)
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [78 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code "_decode" 🚩52/"BitIntegerAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":55
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [118 bytes]
+          -consts: (
+            None,
+            (ref to 45)((ref to 37)"bytesize",),
+            ((ref to 36)"signed",),
+          )
+          -names: ((ref to 35)"swapped", (ref to 8)"swap_bytes", (ref to 37)"bytesize", (ref to 7)"bin_to_int", (ref to 36)"signed")
+          -locals+names: ((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context") 🚩51
+          -locals+kinds: [32, 32, 32]
+          -linetable: [42 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+        (False, False, 8 🚩53),
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode") 🚩54
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [35 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 33)"BitIntegerAdapter",
+    Code (ref to 57)"MappingAdapter"/(ref to 57)"MappingAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":60
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [48 bytes]
+      -consts: (
+        "MappingAdapter" 🚩57,
+        "\n    Adapter that maps objects to other objects.\n    See SymmetricMapping and Enum.\n\n    Parameters:\n    * subcon - the subcon to map\n    * decoding - the decoding (parsing) mapping (a dict)\n    * encoding - the encoding (building) mapping (a dict)\n    * decdefault - the default return value when the object is not found\n      in the decoding mapping. if no object is given, an exception is raised.\n      if `Pass` is used, the unmapped object will be passed as-is\n    * encdefault - the default return value when the object is not found\n      in the encoding mapping. if no object is given, an exception is raised.\n      if `Pass` is used, the unmapped object will be passed as-is\n    ",
+        ("encoding" 🚩58, "decoding" 🚩59, "encdefault" 🚩60, "decdefault" 🚩61),
+        Code (ref to 40)"__init__"/"MappingAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":77
+          argcount=6 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [104 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 59)"decoding", (ref to 58)"encoding", (ref to 61)"decdefault", (ref to 60)"encdefault")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 59)"decoding", (ref to 58)"encoding", (ref to 61)"decdefault", (ref to 60)"encdefault")
+          -locals+kinds: [32, 32, 32, 32, 32, 32]
+          -linetable: [46 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"MappingAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":84
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=8 flags=3
+          -code: [256 bytes]
+          -consts: (None, "no encoding mapping for ", " [" 🚩64, "]" 🚩65)
+          -names: ((ref to 58)"encoding", "KeyError" 🚩66, "TypeError" 🚩67, (ref to 60)"encdefault", "NotImplemented" 🚩68, (ref to 25)"MappingError", (ref to 42)"subcon", "name" 🚩69, (ref to 5)"Pass")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [114 bytes]
+          -exceptiontable: [22 bytes],
+        Code (ref to 52)"_decode"/"MappingAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":94
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=8 flags=3
+          -code: [256 bytes]
+          -consts: (None, "no decoding mapping for ", (ref to 64)" [", (ref to 65)"]")
+          -names: ((ref to 59)"decoding", (ref to 66)"KeyError", (ref to 67)"TypeError", (ref to 61)"decdefault", (ref to 68)"NotImplemented", (ref to 25)"MappingError", (ref to 42)"subcon", (ref to 69)"name", (ref to 5)"Pass")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: (ref to 70)[114 bytes]
+          -exceptiontable: (ref to 71)[22 bytes],
+        None,
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 68)"NotImplemented", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [35 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 57)"MappingAdapter",
+    Code (ref to 74)"FlagsAdapter"/(ref to 74)"FlagsAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":105
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [40 bytes]
+      -consts: (
+        "FlagsAdapter" 🚩74,
+        "\n    Adapter for flag fields. Each flag is extracted from the number, resulting\n    in a FlagsContainer object. Not intended for direct usage.\n    See FlagsEnum.\n\n    Parameters\n    * subcon - the subcon to extract\n    * flags - a dictionary mapping flag-names to their value\n    ",
+        "flags" 🚩75,
+        Code (ref to 40)"__init__"/"FlagsAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":116
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 75)"flags")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 75)"flags")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [25 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"FlagsAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":119
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=6 flags=3
+          -code: [116 bytes]
+          -consts: (None, (ref to 44)0, False)
+          -names: ((ref to 75)"flags", "items" 🚩79, "getattr" 🚩80)
+          -locals+names: ((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context", (ref to 75)"flags", (ref to 69)"name", "value" 🚩81)
+          -locals+kinds: [32, 32, 32, 32, 32, 32]
+          -linetable: [67 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"FlagsAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":125
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=9 flags=3
+          -code: [144 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 9)"FlagsContainer", (ref to 75)"flags", (ref to 79)"items", "setattr" 🚩83, "bool" 🚩84)
+          -locals+names: ((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context", (ref to 48)"obj2", (ref to 69)"name", (ref to 81)"value")
+          -locals+kinds: [32, 32, 32, 32, 32, 32]
+          -linetable: [68 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [31 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 74)"FlagsAdapter",
+    Code (ref to 86)"StringAdapter"/(ref to 86)"StringAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":131
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [42 bytes]
+      -consts: (
+        "StringAdapter" 🚩86,
+        "\n    Adapter for strings. Converts a sequence of characters into a python\n    string, and optionally handles character encoding.\n    See String.\n\n    Parameters:\n    * subcon - the subcon to convert\n    * encoding - the character encoding name (e.g., \"utf8\"), or None to\n      return raw bytes (usually 8-bit ASCII).\n    ",
+        (ref to 58)"encoding",
+        None,
+        Code (ref to 40)"__init__"/"StringAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":143
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 58)"encoding")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 58)"encoding")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [25 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"StringAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":146
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=3 flags=3
+          -code: [84 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 58)"encoding", "encode" 🚩90)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [32 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"StringAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":150
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=3 flags=3
+          -code: [84 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 58)"encoding", "decode" 🚩93)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: (ref to 91)[32 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        (ref to 39)(None,),
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [31 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 86)"StringAdapter",
+    Code (ref to 95)"PaddedStringAdapter"/(ref to 95)"PaddedStringAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":155
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [48 bytes]
+      -consts: (
+        "PaddedStringAdapter" 🚩95,
+        "\n    Adapter for padded strings.\n    See String.\n\n    Parameters:\n    * subcon - the subcon to adapt\n    * padchar - the padding character. default is b\"\\x00\".\n    * paddir - the direction where padding is placed (\"right\", \"left\", or\n      \"center\"). the default is \"right\".\n    * trimdir - the direction where trimming will take place (\"right\" or\n      \"left\"). the default is \"right\". trimming is only meaningful for\n      building, when the given string is too long.\n    ",
+        ("padchar" 🚩96, "paddir" 🚩97, "trimdir" 🚩98),
+        Code (ref to 40)"__init__"/"PaddedStringAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":170
+          argcount=5 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [154 bytes]
+          -consts: (
+            None,
+            ("right" 🚩100, "left" 🚩101, "center" 🚩102),
+            "paddir must be 'right', 'left' or 'center'",
+            ((ref to 100)"right", (ref to 101)"left"),
+            "trimdir must be 'right' or 'left'",
+          )
+          -names: ("ValueError" 🚩103, (ref to 3)"Adapter", (ref to 40)"__init__", (ref to 96)"padchar", (ref to 97)"paddir", (ref to 98)"trimdir")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 96)"padchar", (ref to 97)"paddir", (ref to 98)"trimdir")
+          -locals+kinds: [32, 32, 32, 32, 32]
+          -linetable: [90 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"PaddedStringAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":181
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=3 flags=3
+          -code: [236 bytes]
+          -consts: (None, (ref to 100)"right", (ref to 101)"left") 🚩105
+          -names: ((ref to 97)"paddir", "rstrip" 🚩106, (ref to 96)"padchar", "lstrip" 🚩107, "strip" 🚩108)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [103 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"PaddedStringAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":189
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [356 bytes]
+          -consts: (ref to 105)(None, (ref to 100)"right", (ref to 101)"left")
+          -names: ("_sizeof" 🚩110, (ref to 97)"paddir", "ljust" 🚩111, (ref to 96)"padchar", "rjust" 🚩112, (ref to 102)"center", "len" 🚩113, (ref to 98)"trimdir")
+          -locals+names: ((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context", "size" 🚩114)
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [161 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+        ([0] 🚩115, (ref to 100)"right", (ref to 100)"right"),
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 52)"_decode", (ref to 49)"_encode") 🚩116
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [35 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 95)"PaddedStringAdapter",
+    Code (ref to 118)"LengthValueAdapter"/(ref to 118)"LengthValueAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":204
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [32 bytes]
+      -consts: (
+        "LengthValueAdapter" 🚩118,
+        "\n    Adapter for length-value pairs. It extracts only the value from the\n    pair, and calculates the length based on the value.\n    See PrefixedArray and PascalString.\n\n    Parameters:\n    * subcon - the subcon returning a length-value pair\n    ",
+        Code (ref to 49)"_encode"/"LengthValueAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":214
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=3 flags=3
+          -code: [28 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 113)"len",)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [16 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"LengthValueAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":216
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [12 bytes]
+          -consts: (None, (ref to 2)1)
+          -names: (ref to 20)()
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [11 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [24 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 118)"LengthValueAdapter",
+    Code (ref to 122)"CStringAdapter"/(ref to 122)"CStringAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":219
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [42 bytes]
+      -consts: (
+        "CStringAdapter" 🚩122,
+        "\n    Adapter for C-style strings (strings terminated by a terminator char).\n\n    Parameters:\n    * subcon - the subcon to convert\n    * terminators - a sequence of terminator chars. default is b\"\\x00\".\n    * encoding - the character encoding to use (e.g., \"utf8\"), or None to\n      return raw-bytes. the terminator characters are not affected by the\n      encoding.\n    ",
+        "terminators" 🚩123,
+        None,
+        Code (ref to 40)"__init__"/"CStringAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":231
+          argcount=4 posonlyargcount=0 kwonlyargcount=0 stacksize=5 flags=3
+          -code: [66 bytes]
+          -consts: (
+            None,
+            ((ref to 58)"encoding",),
+          )
+          -names: ((ref to 86)"StringAdapter", (ref to 40)"__init__", (ref to 123)"terminators")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 123)"terminators", (ref to 58)"encoding")
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [31 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"CStringAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":234
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=5 flags=3
+          -code: [80 bytes]
+          -consts: (None, (ref to 44)0, (ref to 2)1)
+          -names: ((ref to 86)"StringAdapter", (ref to 49)"_encode", (ref to 123)"terminators")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [41 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"CStringAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":236
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=8 flags=3
+          -code: [84 bytes]
+          -consts: (None, (ref to 21)[], 4294967295 🚩127)
+          -names: ((ref to 86)"StringAdapter", (ref to 52)"_decode", "join" 🚩128)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [38 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        ((ref to 115)[0], None),
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [33 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 122)"CStringAdapter",
+    Code (ref to 130)"TunnelAdapter"/(ref to 130)"TunnelAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":239
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [40 bytes]
+      -consts: (
+        "TunnelAdapter" 🚩130,
+        "\n    Adapter for tunneling (as in protocol tunneling). A tunnel is construct\n    nested upon another (layering). For parsing, the lower layer first parses\n    the data (note: it must return a string!), then the upper layer is called\n    to parse that data (bottom-up). For building it works in a top-down manner;\n    first the upper layer builds the data, then the lower layer takes it and\n    writes it to the stream.\n\n    Parameters:\n    * subcon - the lower layer subcon\n    * inner_subcon - the upper layer (tunneled/nested) subcon\n\n    Example:\n    # a pascal string containing compressed data (zlib encoding), so first\n    # the string is read, decompressed, and finally re-parsed as an array\n    # of UBInt16\n    TunnelAdapter(\n        PascalString(\"data\", encoding = \"zlib\"),\n        GreedyRange(UBInt16(\"elements\"))\n    )\n    ",
+        "inner_subcon" 🚩131,
+        Code (ref to 40)"__init__"/"TunnelAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":262
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 131)"inner_subcon")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 131)"inner_subcon")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [26 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"TunnelAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":265
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=5 flags=3
+          -code: [76 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 131)"inner_subcon", "_parse" 🚩134, (ref to 11)"BytesIO")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [31 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"TunnelAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":267
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=5 flags=3
+          -code: [112 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 11)"BytesIO", (ref to 131)"inner_subcon", "_build" 🚩136, "getvalue" 🚩137)
+          -locals+names: ((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context", "stream" 🚩138)
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [46 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: (ref to 116)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 52)"_decode", (ref to 49)"_encode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [32 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 130)"TunnelAdapter",
+    Code (ref to 140)"ExprAdapter"/(ref to 140)"ExprAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":272
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [30 bytes]
+      -consts: (
+        "ExprAdapter" 🚩140,
+        "\n    A generic adapter that accepts 'encoder' and 'decoder' as parameters. You\n    can use ExprAdapter instead of writing a full-blown class when only a\n    simple expression is needed.\n\n    Parameters:\n    * subcon - the subcon to adapt\n    * encoder - a function that takes (obj, context) and returns an encoded\n      version of obj\n    * decoder - a function that takes (obj, context) and returns a decoded\n      version of obj\n\n    Example:\n    ExprAdapter(UBInt8(\"foo\"),\n        encoder = lambda obj, ctx: obj / 4,\n        decoder = lambda obj, ctx: obj * 4,\n    )\n    ",
+        (ref to 49)"_encode",
+        (ref to 52)"_decode",
+        Code (ref to 40)"__init__"/"ExprAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":292
+          argcount=4 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [76 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", "encoder" 🚩142, "decoder" 🚩143)
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [32 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 40)"__init__")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [24 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 140)"ExprAdapter",
+    Code (ref to 145)"HexDumpAdapter"/(ref to 145)"HexDumpAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":297
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [42 bytes]
+      -consts: (
+        "HexDumpAdapter" 🚩145,
+        "\n    Adapter for hex-dumping strings. It returns a HexString, which is a string\n    ",
+        "linesize" 🚩146,
+        Code (ref to 40)"__init__"/"HexDumpAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":302
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 146)"linesize")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 146)"linesize")
+          -locals+kinds: [32, 32, 32]
+          -linetable: (ref to 88)[25 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"HexDumpAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":305
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=3
+          -code: [6 bytes]
+          -consts: (ref to 39)(None,)
+          -names: (ref to 20)()
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [7 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"HexDumpAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":307
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [48 bytes]
+          -consts: (
+            None,
+            ((ref to 146)"linesize",),
+          )
+          -names: ((ref to 10)"HexString", (ref to 146)"linesize")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [19 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+        (16 🚩150,),
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [31 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 145)"HexDumpAdapter",
+    Code (ref to 152)"ConstAdapter"/(ref to 152)"ConstAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":310
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [40 bytes]
+      -consts: (
+        "ConstAdapter" 🚩152,
+        "\n    Adapter for enforcing a constant value (\"magic numbers\"). When decoding,\n    the return value is checked; when building, the value is substituted in.\n\n    Parameters:\n    * subcon - the subcon to validate\n    * value - the expected value\n\n    Example:\n    Const(Field(\"signature\", 2), \"MZ\")\n    ",
+        (ref to 81)"value",
+        Code (ref to 40)"__init__"/"ConstAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":323
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 81)"value")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 81)"value")
+          -locals+kinds: [32, 32, 32]
+          -linetable: (ref to 77)[25 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"ConstAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":326
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=6 flags=3
+          -code: [114 bytes]
+          -consts: (None, "expected ", ", found ") 🚩155
+          -names: ((ref to 81)"value", (ref to 27)"ConstError") 🚩156
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [48 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"ConstAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":331
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=6 flags=3
+          -code: [90 bytes]
+          -consts: (ref to 155)(None, "expected ", ", found ")
+          -names: (ref to 156)((ref to 81)"value", (ref to 27)"ConstError")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [39 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [32 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 152)"ConstAdapter",
+    Code (ref to 159)"SlicingAdapter"/(ref to 159)"SlicingAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":336
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [44 bytes]
+      -consts: (
+        "SlicingAdapter" 🚩159,
+        "\n    Adapter for slicing a list (getting a slice from that list)\n\n    Parameters:\n    * subcon - the subcon to slice\n    * start - start index\n    * stop - stop index (or None for up-to-end)\n    * step - step (or None for every element)\n    ",
+        ("start" 🚩160, "stop" 🚩161, "step" 🚩162),
+        None,
+        Code (ref to 40)"__init__"/"SlicingAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":347
+          argcount=4 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [76 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 160)"start", (ref to 161)"stop")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 160)"start", (ref to 161)"stop")
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [32 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"SlicingAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":351
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [68 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 160)"start",)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [39 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"SlicingAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":355
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=3 flags=3
+          -code: [52 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 160)"start", (ref to 161)"stop")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [23 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        (ref to 39)(None,),
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [29 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 159)"SlicingAdapter",
+    Code (ref to 167)"IndexingAdapter"/(ref to 167)"IndexingAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":358
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [40 bytes]
+      -consts: (
+        "IndexingAdapter" 🚩167,
+        "\n    Adapter for indexing a list (getting a single item from that list)\n\n    Parameters:\n    * subcon - the subcon to index\n    * index - the index of the list to get\n    ",
+        "index" 🚩168,
+        Code (ref to 40)"__init__"/"IndexingAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":367
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=6 flags=3
+          -code: [138 bytes]
+          -consts: (None, "index must be an integer")
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", "type" 🚩170, "int" 🚩171, (ref to 67)"TypeError", (ref to 168)"index")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 168)"index")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [55 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"IndexingAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":372
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [42 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 168)"index",) 🚩173
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [26 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"IndexingAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":374
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [32 bytes]
+          -consts: (ref to 39)(None,)
+          -names: (ref to 173)((ref to 168)"index",)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [16 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [31 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 167)"IndexingAdapter",
+    Code (ref to 176)"PaddingAdapter"/(ref to 176)"PaddingAdapter"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":377
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=0
+      -code: [44 bytes]
+      -consts: (
+        "PaddingAdapter" 🚩176,
+        "\n    Adapter for padding.\n\n    Parameters:\n    * subcon - the subcon to pad\n    * pattern - the padding pattern (character as byte). default is b\"\\x00\"\n    * strict - whether or not to verify, during parsing, that the given\n      padding matches the padding pattern. default is False (unstrict)\n    ",
+        "pattern" 🚩177,
+        "strict" 🚩178,
+        Code (ref to 40)"__init__"/"PaddingAdapter.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":388
+          argcount=4 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [76 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 3)"Adapter", (ref to 40)"__init__", (ref to 177)"pattern", (ref to 178)"strict")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 177)"pattern", (ref to 178)"strict")
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [32 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"PaddingAdapter._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":392
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=3 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 110)"_sizeof", (ref to 177)"pattern")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [26 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 52)"_decode"/"PaddingAdapter._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":394
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=6 flags=3
+          -code: [134 bytes]
+          -consts: (ref to 155)(None, "expected ", ", found ")
+          -names: ((ref to 178)"strict", (ref to 110)"_sizeof", (ref to 177)"pattern", (ref to 31)"PaddingError")
+          -locals+names: ((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context", "expected" 🚩182)
+          -locals+kinds: [32, 32, 32, 32]
+          -linetable: [60 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+        ((ref to 115)[0], False),
+      )
+      -names: (ref to 54)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", "__doc__" 🚩55, (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 49)"_encode", (ref to 52)"_decode")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [34 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 176)"PaddingAdapter",
+    Code (ref to 184)"Validator"/(ref to 184)"Validator"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":405
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [38 bytes]
+      -consts: (
+        "Validator" 🚩184,
+        "\n    Abstract class: validates a condition on the encoded/decoded object.\n    Override _validate(obj, context) in deriving classes.\n\n    Parameters:\n    * subcon - the subcon to validate\n    ",
+        Code (ref to 52)"_decode"/"Validator._decode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":414
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [66 bytes]
+          -consts: (None, "invalid object")
+          -names: ("_validate" 🚩186, (ref to 29)"ValidationError")
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [35 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 49)"_encode"/"Validator._encode"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":418
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [38 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 52)"_decode",)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [19 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 186)"_validate"/"Validator._validate"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":420
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [22 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ("NotImplementedError" 🚩189,)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [11 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 52)"_decode", (ref to 49)"_encode", (ref to 186)"_validate")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [29 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 184)"Validator",
+    Code (ref to 191)"OneOf"/(ref to 191)"OneOf"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":423
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [34 bytes]
+      -consts: (
+        "OneOf" 🚩191,
+        "\n    Validates that the object is one of the listed values.\n\n    :param ``Construct`` subcon: object to validate\n    :param iterable valids: a set of valid values\n\n    >>> OneOf(UBInt8(\"foo\"), [4,5,6,7]).parse(\"\\x05\")\n    5\n    >>> OneOf(UBInt8(\"foo\"), [4,5,6,7]).parse(\"\\x08\")\n    Traceback (most recent call last):\n        ...\n    construct.core.ValidationError: ('invalid object', 8)\n    >>>\n    >>> OneOf(UBInt8(\"foo\"), [4,5,6,7]).build(5)\n    '\\x05'\n    >>> OneOf(UBInt8(\"foo\"), [4,5,6,7]).build(9)\n    Traceback (most recent call last):\n        ...\n    construct.core.ValidationError: ('invalid object', 9)\n    ",
+        "valids" 🚩192,
+        Code (ref to 40)"__init__"/"OneOf.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":445
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 184)"Validator", (ref to 40)"__init__", (ref to 192)"valids")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 192)"valids")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [25 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 186)"_validate"/"OneOf._validate"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":448
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [30 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 192)"valids",)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [17 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: ((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 186)"_validate") 🚩195
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [26 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 191)"OneOf",
+    Code (ref to 197)"NoneOf"/(ref to 197)"NoneOf"
+      (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":451
+      argcount=0 posonlyargcount=0 kwonlyargcount=0 stacksize=1 flags=0
+      -code: [34 bytes]
+      -consts: (
+        "NoneOf" 🚩197,
+        "\n    Validates that the object is none of the listed values.\n\n    :param ``Construct`` subcon: object to validate\n    :param iterable invalids: a set of invalid values\n\n    >>> NoneOf(UBInt8(\"foo\"), [4,5,6,7]).parse(\"\\x08\")\n    8\n    >>> NoneOf(UBInt8(\"foo\"), [4,5,6,7]).parse(\"\\x06\")\n    Traceback (most recent call last):\n        ...\n    construct.core.ValidationError: ('invalid object', 6)\n    ",
+        "invalids" 🚩198,
+        Code (ref to 40)"__init__"/"NoneOf.__init__"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":466
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=4 flags=3
+          -code: [62 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 184)"Validator", (ref to 40)"__init__", (ref to 198)"invalids")
+          -locals+names: ((ref to 41)"self", (ref to 42)"subcon", (ref to 198)"invalids")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [25 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        Code (ref to 186)"_validate"/"NoneOf._validate"
+          (ref to 22)"/usr/lib/python3.12/site-packages/elftools/construct/adapters.py":469
+          argcount=3 posonlyargcount=0 kwonlyargcount=0 stacksize=2 flags=3
+          -code: [30 bytes]
+          -consts: (ref to 39)(None,)
+          -names: ((ref to 198)"invalids",)
+          -locals+names: (ref to 51)((ref to 41)"self", (ref to 46)"obj", (ref to 47)"context")
+          -locals+kinds: [32, 32, 32]
+          -linetable: [17 bytes]
+          -exceptiontable: (ref to 21)[] 🚩21,
+        None,
+      )
+      -names: (ref to 195)((ref to 16)"__name__", (ref to 17)"__module__", (ref to 18)"__qualname__", (ref to 55)"__doc__", (ref to 19)"__slots__", (ref to 40)"__init__", (ref to 186)"_validate")
+      -locals+names: (ref to 20)()
+      -locals+kinds: (ref to 21)[]
+      -linetable: [26 bytes]
+      -exceptiontable: (ref to 21)[] 🚩21,
+    (ref to 197)"NoneOf",
+    None,
+  )
+  -names: (
+    "core" 🚩201,
+    (ref to 3)"Adapter",
+    (ref to 4)"AdaptationError",
+    (ref to 5)"Pass",
+    "lib" 🚩202,
+    (ref to 6)"int_to_bin",
+    (ref to 7)"bin_to_int",
+    (ref to 8)"swap_bytes",
+    (ref to 9)"FlagsContainer",
+    (ref to 10)"HexString",
+    "lib.py3compat" 🚩203,
+    (ref to 11)"BytesIO",
+    (ref to 12)"decodebytes",
+    (ref to 14)"BitIntegerError",
+    (ref to 25)"MappingError",
+    (ref to 27)"ConstError",
+    (ref to 29)"ValidationError",
+    (ref to 31)"PaddingError",
+    (ref to 33)"BitIntegerAdapter",
+    (ref to 57)"MappingAdapter",
+    (ref to 74)"FlagsAdapter",
+    (ref to 86)"StringAdapter",
+    (ref to 95)"PaddedStringAdapter",
+    (ref to 118)"LengthValueAdapter",
+    (ref to 122)"CStringAdapter",
+    (ref to 130)"TunnelAdapter",
+    (ref to 140)"ExprAdapter",
+    (ref to 145)"HexDumpAdapter",
+    (ref to 152)"ConstAdapter",
+    (ref to 159)"SlicingAdapter",
+    (ref to 167)"IndexingAdapter",
+    (ref to 176)"PaddingAdapter",
+    (ref to 184)"Validator",
+    (ref to 191)"OneOf",
+    (ref to 197)"NoneOf",
+  )
+  -locals+names: (ref to 20)()
+  -locals+kinds: (ref to 21)[]
+  -linetable: [293 bytes]
+  -exceptiontable: (ref to 21)[] 🚩21
